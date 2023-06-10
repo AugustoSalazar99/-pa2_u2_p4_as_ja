@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
     <fullyQualifiedTypeName name="com.example.demo.Materia"/>
     <fullyQualifiedTypeName name="com.example.demo.repository.EstudianteRepositoryImpl"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.example.demo.repository.EstudianteRepository"/>
-    <fullyQualifiedTypeName name="com.example.demo.service.EstudianteService"/>
-    <fullyQualifiedTypeName name="com.example.demo.repository.modelo.Estudiante"/>
     <fullyQualifiedTypeName name="com.example.demo.banco.repository.TransferenciaRepository"/>
     <fullyQualifiedTypeName name="com.example.demo.banco.repository.CuentaRepository"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
@@ -23,14 +19,19 @@
     <fullyQualifiedTypeName name="com.example.demo.banco.repository.modelo.Presidente"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="com.example.demo.banco.repository.modelo.ImpuestoRepository"/>
     <fullyQualifiedTypeName name="com.example.demo.banco.service.CargaSistemaService"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="com.example.demo.banco.repository.modelo.Impuesto"/>
     <fullyQualifiedTypeName name="com.example.demo.banco.repository.modelo.Transferencia"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.example.demo.banco.service.TransferenciaService"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.example.demo.service.EstudianteService"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.modelo.Estudiante"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.EstudianteRepository"/>
 </qualifiedTypeNameHistroy>

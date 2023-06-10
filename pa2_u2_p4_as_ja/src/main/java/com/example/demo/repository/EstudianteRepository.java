@@ -9,8 +9,9 @@ public interface EstudianteRepository {
 	
 
 	public void insertar(Estudiante estudiante);
-	public void guardar(Estudiante estudiante); 
-	
+	public void Actualizar(Estudiante estudiante); 
+	public void eliminar(String cedula);
+	public Estudiante buscar(String cedula);
 	
 
 }

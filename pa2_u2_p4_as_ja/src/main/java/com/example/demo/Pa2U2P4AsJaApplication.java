@@ -12,7 +12,7 @@ import com.example.demo.service.EstudianteService;
 public class Pa2U2P4AsJaApplication implements CommandLineRunner {
 	
 	@Autowired
-	private EstudianteService estudianteService;
+	private  EstudianteService estudianteService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(Pa2U2P4AsJaApplication.class, args);
@@ -25,11 +25,34 @@ public class Pa2U2P4AsJaApplication implements CommandLineRunner {
 		
 		es.setNombre("Jhon");
 		es.setApellido("Arteaga");
-		es.setCedula("23231");
+		es.setCedula("2323121457");
 		
-		this.estudianteService.agregar(es);
-		this.estudianteService.guardar(es);
-		System.out.println(es);
+		Estudiante est= new Estudiante();
+		
+		est.setNombre("Augusto");
+		est.setApellido("Salazar");
+		est.setCedula("2023121457");
+		
+		Estudiante estu= new Estudiante();
+		
+		estu.setNombre("Jairo");
+		estu.setApellido("Salazar");
+		estu.setCedula("2553121457");
+		
+	/*	this.estudianteService.guardar(es);
+		this.estudianteService.guardar(est);
+		this.estudianteService.guardar(estu);
+*/
+		
+	   //eliminar
+		//this.estudianteService.borrar("2323121457");
+		
+		//Actualizar
+		est.setNombre("Yajairo");
+		this.estudianteService.Actualizar(est);
+		
+		
+	
 	}
 
 }
