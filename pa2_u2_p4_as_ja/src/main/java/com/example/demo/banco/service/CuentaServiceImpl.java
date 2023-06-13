@@ -1,16 +1,23 @@
 package com.example.demo.banco.service;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.banco.repository.CuentaRepository;
 import com.example.demo.banco.repository.modelo.Cuenta;
 @Service
 public class CuentaServiceImpl  implements CuentaService{
+	
 	@Autowired
 	private CuentaRepository cuentaRepository;
+	
+	@Autowired
+	@Qualifier("par")
+	private MontoAperturaService montoAperturaService;
 	
 
 	@Override
@@ -45,9 +52,28 @@ public class CuentaServiceImpl  implements CuentaService{
 	}
 
 	@Override
-	public void realizar(String fechaApertura, String numero, BigDecimal saldo) {
+	public void realizar(LocalDateTime fechaApertura, String numero, BigDecimal saldo) {
 		// TODO Auto-generated method stub
-	//logica de negocio	
+	Cuenta cta = this.cuentaRepository.seleccionar(numero);
+	System.out.println("la cuenta e3s:"+cta);	
+	BigDecimal saldocta =cta.getSaldo();
+	
+	BigDecimal saldoApert = this.montoAperturaService.calcular(saldocta);
+	
+	
+	
+	int dia= fechaApertura.getDayOfMonth();
+	
+	 if (dia % 2 == 0) {
+         // Día par, aumentar el saldo en un 5%
+         cta.setSaldo(saldoApert);
+         this.cuentaRepository.insertar(cta);
+         
+        } else {
+    	 cta.getSaldo();
+    	 this.cuentaRepository.insertar(cta);
+           }
+	
 	}
 
 }

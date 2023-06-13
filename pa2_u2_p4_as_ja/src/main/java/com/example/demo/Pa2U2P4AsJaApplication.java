@@ -36,6 +36,7 @@ public class Pa2U2P4AsJaApplication implements CommandLineRunner {
 		cta.setSaldo(new BigDecimal(121));
 		cta.setCedulaPropietario("7845127854");
 		this.cuentaService.guarda(cta);
+		this.cuentaService.realizar(LocalDateTime.now(), "124578",new BigDecimal(121));
 	
 
 		

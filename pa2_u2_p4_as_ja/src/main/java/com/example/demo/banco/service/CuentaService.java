@@ -1,6 +1,7 @@
 package com.example.demo.banco.service;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 import com.example.demo.banco.repository.modelo.Cuenta;
 
@@ -10,6 +11,6 @@ public interface CuentaService {
 	public void guarda(Cuenta cuenta);
 	public void eliminar(String cedulaPropietario);
 	public Cuenta seleccionar(String cedulaPropietario);
-	public void realizar(String fechaApertura,String numero, BigDecimal saldo);
+	public void realizar(LocalDateTime fechaApertura,String numero, BigDecimal saldo);
 
 }
