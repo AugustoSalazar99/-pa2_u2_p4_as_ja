@@ -55,7 +55,7 @@ public class CuentaServiceImpl  implements CuentaService{
 	public void realizar(LocalDateTime fechaApertura, String numero, BigDecimal saldo) {
 		// TODO Auto-generated method stub
 	Cuenta cta = this.cuentaRepository.seleccionar(numero);
-	System.out.println("la cuenta e3s:"+cta);	
+	System.out.println("la cuenta es:"+cta);	
 	BigDecimal saldocta =cta.getSaldo();
 	
 	BigDecimal saldoApert = this.montoAperturaService.calcular(saldocta);

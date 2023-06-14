@@ -16,9 +16,7 @@ import com.example.demo.banco.service.CuentaService;
 public class Pa2U2P4AsJaApplication implements CommandLineRunner {
 	
 	
-
-	@Autowired
-	private CuentaService cuentaService;
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(Pa2U2P4AsJaApplication.class, args);
@@ -29,14 +27,7 @@ public class Pa2U2P4AsJaApplication implements CommandLineRunner {
 		
 	
 		
-		Cuenta cta= new Cuenta();
-		cta.setNumero("124578");
-		cta.setTipo("corriente");
-		cta.setFechaApertura(LocalDateTime.now());
-		cta.setSaldo(new BigDecimal(121));
-		cta.setCedulaPropietario("7845127854");
-		this.cuentaService.guarda(cta);
-		this.cuentaService.realizar(LocalDateTime.now(), "124578",new BigDecimal(121));
+		
 	
 
 		
