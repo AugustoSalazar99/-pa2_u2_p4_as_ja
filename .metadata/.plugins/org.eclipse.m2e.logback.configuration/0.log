@@ -2594,3 +2594,114 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.postgresq
 2023-06-13 19:41:11,586 [Worker-52: Launching Executing install in C__Users_fing.labcom_Documents_sts_pa2_u2_p4_as_ja] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja
 2023-06-13 19:41:11,586 [Worker-52: Launching Executing install in C__Users_fing.labcom_Documents_sts_pa2_u2_p4_as_ja] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -Dstyle.color=always install
 2023-06-13 19:41:26,328 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 19:41:26,330 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 19:41:26,331 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:10:33,906 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-16 18:12:27,747 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:12:27,813 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:12:27,818 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:13:05,663 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:13:05,672 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:13:05,677 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:14:39,467 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:14:39,479 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:14:39,484 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:15:45,766 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:15:45,771 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:15:45,776 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:16:53,840 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:16:53,846 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:16:53,849 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:20:32,671 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:20:32,678 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:20:32,681 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:21:26,247 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:21:26,253 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:21:26,256 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:22:34,309 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:22:34,314 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:22:34,320 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:25:03,693 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:25:03,698 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:25:03,701 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:25:27,908 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:25:27,914 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:25:27,916 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:26:01,805 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:26:01,848 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:26:01,851 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:30:14,904 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:30:14,908 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:30:14,911 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:30:39,765 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:30:39,769 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:30:39,771 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:32:20,208 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:32:20,212 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:32:20,215 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:33:06,951 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:33:06,955 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:33:06,957 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:33:49,660 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:33:49,665 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:33:49,668 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:34:17,017 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:34:17,030 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:34:17,034 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:34:36,855 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:34:36,861 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:34:36,866 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:34:54,620 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:34:54,626 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:34:54,630 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:42:39,353 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:42:39,360 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:42:39,362 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:44:22,359 [Worker-13: Launching Executing clean in C__Users_fing.labcom_Documents_sts_pa2_u2_p4_as_ja] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja
+2023-06-16 18:44:22,371 [Worker-13: Launching Executing clean in C__Users_fing.labcom_Documents_sts_pa2_u2_p4_as_ja] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -Dstyle.color=always clean
+2023-06-16 18:44:28,463 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:44:28,465 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:44:28,467 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:44:48,603 [Worker-1: Launching Executing install in C__Users_fing.labcom_Documents_sts_pa2_u2_p4_as_ja] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja
+2023-06-16 18:44:48,604 [Worker-1: Launching Executing install in C__Users_fing.labcom_Documents_sts_pa2_u2_p4_as_ja] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -Dstyle.color=always install
+2023-06-16 18:45:10,118 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:45:10,120 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:45:10,122 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:45:53,722 [Worker-15: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:45:53,727 [Worker-15: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:45:53,729 [Worker-15: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:49:13,635 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:49:13,641 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:49:13,644 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:49:38,599 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:49:38,606 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:49:38,608 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:50:02,701 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:50:02,749 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:50:02,751 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:52:11,725 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:52:11,730 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:52:11,732 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:53:41,931 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:53:41,936 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:53:41,950 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:55:48,796 [Worker-29: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:55:48,801 [Worker-29: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:55:48,805 [Worker-29: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 18:59:29,107 [Worker-23: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 18:59:29,119 [Worker-23: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 18:59:29,122 [Worker-23: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 19:05:12,308 [Worker-32: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 19:05:12,313 [Worker-32: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 19:05:12,317 [Worker-32: Launching pa2_u2_p4_as_ja - Pa2U2P4AsJaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 19:19:52,840 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 19:19:52,857 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 19:19:52,859 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 19:20:03,599 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 19:20:03,616 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 19:20:03,620 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 19:42:32,168 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 19:42:32,176 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 19:42:32,178 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\fing.labcom\Documents\sts\pa2_u2_p4_as_ja\src\test\resources
+2023-06-16 19:43:40,959 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 19:43:40,974 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes

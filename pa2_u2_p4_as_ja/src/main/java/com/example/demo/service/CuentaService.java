@@ -1,0 +1,16 @@
+package com.example.demo.service;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+import com.example.demo.repository.modelo.Cuenta;
+
+public interface CuentaService {
+	public void insertar(Cuenta cuenta);
+	public void actualizar(Cuenta cuenta);
+	public void guarda(Cuenta cuenta);
+	public void eliminar(String cedulaPropietario);
+	public Cuenta seleccionar(String cedulaPropietario);
+	public void realizar(LocalDateTime fechaApertura,String numero, BigDecimal saldo);
+
+}
