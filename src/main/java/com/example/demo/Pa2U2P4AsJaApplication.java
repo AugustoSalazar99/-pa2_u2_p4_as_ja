@@ -16,6 +16,7 @@ import com.example.demo.repository.modelo.Estudiante;
 import com.example.demo.repository.modelo.Habitacion;
 import com.example.demo.repository.modelo.Hotel;
 import com.example.demo.repository.modelo.Libro;
+import com.example.demo.repository.modelo.Materia;
 import com.example.demo.service.AutorService;
 import com.example.demo.service.CiudadanoService;
 import com.example.demo.service.EmpleadoService;
@@ -48,6 +49,9 @@ public class Pa2U2P4AsJaApplication implements CommandLineRunner {
 	private AutorService autorService;
 	@Autowired
 	private MatriculaService matriculaService;
+	@Autowired
+	private EstudianteService estudianteService;
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(Pa2U2P4AsJaApplication.class, args);
@@ -55,15 +59,37 @@ public class Pa2U2P4AsJaApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Alumno alum = new Alumno();
-		alum.setNombre("Yajairo");
-		Matricula mat = new Matricula();
-		mat.setFecha(LocalDateTime.now());
-		mat.setNumero("3");
-		mat.set
 		
-		this.matriculaService.guardar(mat);
 		
+		Estudiante est = new Estudiante();
+		est.setNombre("Augusto");
+		est.setApellido("Osorio");
+		est.setCedula("32455786");
+		
+		Estudiante est1 = new Estudiante();
+		est1.setNombre("Luis");
+		est1.setApellido("Quinaucho");
+		est1.setCedula("673427");
+		
+		Estudiante est2 = new Estudiante();
+		est2.setNombre("Jazmin");
+		est2.setApellido("Salazar");
+		est2.setCedula("785673427");
+		
+		
+		//this.estudianteService.guardar(est2);
+		//this.estudianteService.buscarPorApellido("Quinaucho");
+		
+		/*String apellido = null;
+		List<Estudiante> listEst = this.estudianteService.reporteEstudiante(apellido);
+		
+		for(Estudiante impEstu : listEst) {
+			System.out.println(impEstu);
+		}
+		*/
+		//this.estudianteService.buscarPorApellidoyNombre("Quinaucho", "Luis");
+	
+	System.out.println(this.estudianteService.buscarPorApellidoTyped("Quinaucho"));
 	}
 
 }
