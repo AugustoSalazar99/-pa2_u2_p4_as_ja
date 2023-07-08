@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import com.example.demo.repository.modelo.Estudiante;
+import com.example.demo.repository.modelo.dto.EstudianteDTO;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -204,6 +205,7 @@ public class EstudianteRepositoryImpl  implements EstudianteRepository{
 
 		Query myQuery=this.entityManager.createQuery("DELETE FROM Estudiante e WHERE e.nombre=:datoNombre");
 		myQuery.setParameter("datoNombre", nombre);
+		
 		return myQuery.executeUpdate();
 		
 	}
@@ -224,6 +226,36 @@ public class EstudianteRepositoryImpl  implements EstudianteRepository{
 		myQuery.setParameter("datoApellido", apellido);
 
 		return myQuery.executeUpdate();
+	}
+
+///7/7/23
+	
+	@Override
+	public List<EstudianteDTO> seleccionarTodosDTO() {
+		// TODO Auto-generated method stub
+		TypedQuery<EstudianteDTO> myQuery=this.entityManager.createQuery(
+							"SELECT NEW com.example.demo.repository.modelo.dto.EstudianteDTO(e.nombre,e.apellido) FROM Estudiante e"
+				       		 ,EstudianteDTO.class);
+		return myQuery.getResultList();
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

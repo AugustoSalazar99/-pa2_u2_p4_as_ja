@@ -1,5 +1,7 @@
 package com.example.demo.repository;
 
+import java.util.List;
+
 import com.example.demo.repository.modelo.Habitacion;
 
 public interface HabitacionRepository {
@@ -8,4 +10,6 @@ public interface HabitacionRepository {
 	public void eliminar(String id);
 	public Habitacion buscar(String id);
 
+	
+	public List<Habitacion> seleccionarTodo();
 }

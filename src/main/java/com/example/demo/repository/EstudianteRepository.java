@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.example.demo.repository.modelo.Estudiante;
+import com.example.demo.repository.modelo.dto.EstudianteDTO;
 import com.example.demo.service.EstudianteService;
 
 public interface EstudianteRepository {
@@ -46,7 +47,8 @@ public interface EstudianteRepository {
 	public int eliminarPorNombre(String nombre);
 	public int actualizarPorApellido(String nombre, String apellido);
 	
-	
+	//7/7/2023
+	public List<EstudianteDTO> seleccionarTodosDTO();
 	
 	
 }
